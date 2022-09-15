@@ -87,7 +87,7 @@ download.onclick = () => {
 
 // add active class when user scroll down the page
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 240) {
     document.querySelector("#canvas").classList.add("fixedCavas");
   } else {
     document.querySelector("#canvas").classList.remove("fixedCavas");
