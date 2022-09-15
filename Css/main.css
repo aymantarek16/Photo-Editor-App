@@ -9,6 +9,17 @@
 body {
   background-color: #333;
 }
+/* ====================================== Clases Reset ====================================== */
+.fixedCavas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  transition: all 0.5s ease;
+}
 /* ====================================== Project Styling ====================================== */
 .container {
   width: 80vw;
